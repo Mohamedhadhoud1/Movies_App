@@ -41,6 +41,7 @@ const Search = () => {
     return () => clearTimeout(timeoutId);
   }, [searchQuery]);
 
+  
   useEffect(() => {
            // Call updateSearchCount only if there are results
         if (movies?.length! > 0 && movies?.[0]) {
